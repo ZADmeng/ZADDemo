@@ -15,6 +15,17 @@
 ```
 # 权限动态申请
 ```
+   private Handler handler = new Handler() {
+        @Override
+        public void handleMessage(Message msg) {
+            super.handleMessage(msg);
+            switch (msg.what) {
+                case 2001:
+                    init();
+                    break;
+            }
+        }
+    };
   private void initView() {
         main = (LinearLayout) findViewById(R.id.main);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M)
