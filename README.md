@@ -12,7 +12,7 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/zad_file_path" />
         </provider>
-        ```
+```
 # 权限动态申请
 ```
   private void initView() {
@@ -116,4 +116,4 @@
             finish();
         }
     }
-    ```
+```
