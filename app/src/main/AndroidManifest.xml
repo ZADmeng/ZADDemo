@@ -14,7 +14,7 @@
         <!--加入你的key-->
         <meta-data
             android:name="PUSH_APPKEY"
-            android:value="1d7512fb70e34df612a1676c" />
+            android:value="f29c6acaa76a1d0f79a2fafa" />
         <!--加入你的渠道-->
         <meta-data
             android:name="PUSH_CHANNEL"
